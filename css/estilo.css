@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+}
+b{
+    font-family: Arial;
+}
+h3{
+    margin-left: 18%;
+}
+.contenedor{
+    display: flex;
+}
+.contenedor div{    
+    font-family: Raleway;
+    width: 85%;        
+    padding: 2px;        
+}
+button{
+    border: 2px solid mediumseagreen;
+    background-color: white;
+    color: mediumseagreen;
+    border-radius: 9%;
+}
+input{
+    border: 2px solid mediumseagreen;
+    background-color: white;
+    color: mediumseagreen; 
+    border-radius: 3%;   
+    width: 350px;    
+}
+.alinearinput{
+    margin-top: 100px;
+    margin-right: 120px;
+}
+.alinearbutton{
+    margin-top: 100px;    
+}
+.alinearimagen{
+    margin-top: 3%;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/codigo.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Exámen de Programación Web y Multimedia</h1>
+    <h3>IMAGEN</h3>
+    <div class="contenedor">
+      <div>
+        <div>
+            <button onclick="tucan()"><img src="img/toucan.png" alt="" width="35px">1. Tucán</button>
+        </div>
+        <div>
+            <button onclick="gato()"><img src="img/cat.png" alt="" width="35px">2. Gato</button>
+        </div>
+        <div>
+            <button onclick="zorro()"><img src="img/fox.png" alt="" width="35px">3. Zorro</button>
+        </div>
+        <div>
+            <button onclick="koala()"><img src="img/koala.png" alt="" width="35px">4. Koala</button>
+        </div>
+        <div>
+            <button onclick="ardilla()"><img src="img/squirrel.png" alt="" width="35">5. Ardilla</button>
+        </div>
+    </div>
+    <div id="imagen" class="alinearimagen">
+        <img src="img/wild-animals.png" alt="" width="180px">
+    </div>  
+    </div>
+    <div>
+        <br>
+        <button onclick="reiniciar()">Reiniciar</button>
+    </div>
+    <h2>Ejercicio 1</h2>
+    <p>Crear un botón para reiniciar el juego</p>
+
+    <h2>Ejercicio 2</h2>
+    <p>Crear un botón que dado un número, muestre la imagen correspondiente</p>
+    <div class="contenedor">
+        <div>            
+            <input type="text" class="alinearinput" id="input1">
+        </div>
+        <div>
+            <button class="alinearbutton" onclick="buscar()">Buscar</button>
+        </div>
+        <div>
+            <div id="imagen2"><img src="img/wild-animals.png" alt="" width="150px"></div>
+            <div id="texto"><b>name</b></div>
+        </div>
+    </div>
+    <h2>Ejercicio 3</h2>
+    <p>Crear un botón que dado un número, muestre la imagen correspondiente y el número de letras de la palabra</p>
+    <div class="contenedor">
+        <div>            
+            <input type="text" class="alinearinput" id="input2">
+        </div>
+        <div>
+            <button class="alinearbutton" onclick="contar()">Contar</button>
+        </div>
+        <div>
+            <div id="imagen3"><img src="img/wild-animals.png" alt="" width="150px"></div>
+            <div id="texto2"><b>name</b></div>
+        </div>
+    </div>
+</body>
+</html>
